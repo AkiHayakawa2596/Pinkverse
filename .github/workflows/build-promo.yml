@@ -1,0 +1,75 @@
+name: Build PINKVERSE Promo
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "promo/**"
+      - "index.html"
+      - "app.js"
+      - "styles.css"
+      - "assets/**"
+      - ".github/workflows/build-promo.yml"
+
+jobs:
+  render:
+    name: Render Promo Video
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: promo/requirements.txt
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r promo/requirements.txt
+
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Capture real PINKVERSE UI
+        run: |
+          python promo/capture_promo.py
+
+      - name: Render promo videos
+        run: |
+          python promo/render_promo.py
+
+      - name: Verify generated files
+        run: |
+          test -s promo/build/pinkverse_promo_30s_9x16.mp4
+          test -s promo/build/pinkverse_promo_15s_9x16.mp4
+          test -s promo/build/pinkverse_promo_6s_9x16.mp4
+          test -s promo/build/shot_log.json
+          ffprobe -v error -show_entries format=duration \
+            -of default=noprint_wrappers=1:nokey=1 \
+            promo/build/pinkverse_promo_30s_9x16.mp4
+          find promo/build -maxdepth 2 -type f -print
+
+      - name: Upload promo videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: pinkverse-promo-videos
+          path: |
+            promo/build/pinkverse_promo_30s_9x16.mp4
+            promo/build/pinkverse_promo_15s_9x16.mp4
+            promo/build/pinkverse_promo_6s_9x16.mp4
+            promo/build/shot_log.json
+            promo/build/raw/*.webm
+          if-no-files-found: error
+          retention-days: 14

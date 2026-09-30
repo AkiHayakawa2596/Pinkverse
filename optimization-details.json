@@ -1,0 +1,454 @@
+{
+  "sprites": [
+    {
+      "file": "assets/sprites/crowd-fan-back-01.png",
+      "before": 3982,
+      "after": 1868,
+      "saved": 2114
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-02.png",
+      "before": 5616,
+      "after": 2227,
+      "saved": 3389
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-03.png",
+      "before": 5770,
+      "after": 2249,
+      "saved": 3521
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-04.png",
+      "before": 4803,
+      "after": 1915,
+      "saved": 2888
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-05.png",
+      "before": 7980,
+      "after": 2752,
+      "saved": 5228
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-06.png",
+      "before": 7862,
+      "after": 2734,
+      "saved": 5128
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-07.png",
+      "before": 6082,
+      "after": 2196,
+      "saved": 3886
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-08.png",
+      "before": 8560,
+      "after": 2831,
+      "saved": 5729
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-09.png",
+      "before": 9082,
+      "after": 3018,
+      "saved": 6064
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-10.png",
+      "before": 9244,
+      "after": 3060,
+      "saved": 6184
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-11.png",
+      "before": 9004,
+      "after": 2665,
+      "saved": 6339
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-12.png",
+      "before": 8266,
+      "after": 2642,
+      "saved": 5624
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-13.png",
+      "before": 10380,
+      "after": 3319,
+      "saved": 7061
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-14.png",
+      "before": 8851,
+      "after": 2768,
+      "saved": 6083
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-15.png",
+      "before": 11865,
+      "after": 3912,
+      "saved": 7953
+    },
+    {
+      "file": "assets/sprites/crowd-fan-back-16.png",
+      "before": 11435,
+      "after": 3194,
+      "saved": 8241
+    },
+    {
+      "file": "assets/sprites/jennie-encore-base-dance-grid.png",
+      "before": 1264094,
+      "after": 261028,
+      "saved": 1003066
+    },
+    {
+      "file": "assets/sprites/jennie-encore-chorus-dance-grid.png",
+      "before": 1729660,
+      "after": 347075,
+      "saved": 1382585
+    },
+    {
+      "file": "assets/sprites/jennie-encore-hero-dance-grid.png",
+      "before": 1609746,
+      "after": 320825,
+      "saved": 1288921
+    },
+    {
+      "file": "assets/sprites/jennie-encore.png",
+      "before": 633979,
+      "after": 127173,
+      "saved": 506806
+    },
+    {
+      "file": "assets/sprites/jennie-noir-base-dance-grid.png",
+      "before": 1113905,
+      "after": 221557,
+      "saved": 892348
+    },
+    {
+      "file": "assets/sprites/jennie-noir-chorus-dance-grid.png",
+      "before": 1522521,
+      "after": 292963,
+      "saved": 1229558
+    },
+    {
+      "file": "assets/sprites/jennie-noir-hero-dance-grid.png",
+      "before": 1474302,
+      "after": 280171,
+      "saved": 1194131
+    },
+    {
+      "file": "assets/sprites/jennie-noir.png",
+      "before": 554795,
+      "after": 106567,
+      "saved": 448228
+    },
+    {
+      "file": "assets/sprites/jennie-pink-base-dance-grid.png",
+      "before": 1118245,
+      "after": 239608,
+      "saved": 878637
+    },
+    {
+      "file": "assets/sprites/jennie-pink-chorus-dance-grid.png",
+      "before": 1520161,
+      "after": 315818,
+      "saved": 1204343
+    },
+    {
+      "file": "assets/sprites/jennie-pink-hero-dance-grid.png",
+      "before": 1403375,
+      "after": 291325,
+      "saved": 1112050
+    },
+    {
+      "file": "assets/sprites/jennie-pink.png",
+      "before": 552687,
+      "after": 114351,
+      "saved": 438336
+    },
+    {
+      "file": "assets/sprites/jisoo-encore-base-dance-grid.png",
+      "before": 1450700,
+      "after": 314481,
+      "saved": 1136219
+    },
+    {
+      "file": "assets/sprites/jisoo-encore-chorus-dance-grid.png",
+      "before": 1894912,
+      "after": 397292,
+      "saved": 1497620
+    },
+    {
+      "file": "assets/sprites/jisoo-encore-hero-dance-grid.png",
+      "before": 1844580,
+      "after": 386104,
+      "saved": 1458476
+    },
+    {
+      "file": "assets/sprites/jisoo-encore.png",
+      "before": 693141,
+      "after": 145011,
+      "saved": 548130
+    },
+    {
+      "file": "assets/sprites/jisoo-noir-base-dance-grid.png",
+      "before": 1346998,
+      "after": 271095,
+      "saved": 1075903
+    },
+    {
+      "file": "assets/sprites/jisoo-noir-chorus-dance-grid.png",
+      "before": 1770417,
+      "after": 346680,
+      "saved": 1423737
+    },
+    {
+      "file": "assets/sprites/jisoo-noir-hero-dance-grid.png",
+      "before": 1753547,
+      "after": 339032,
+      "saved": 1414515
+    },
+    {
+      "file": "assets/sprites/jisoo-noir.png",
+      "before": 646891,
+      "after": 126269,
+      "saved": 520622
+    },
+    {
+      "file": "assets/sprites/jisoo-pink-base-dance-grid.png",
+      "before": 1331252,
+      "after": 295298,
+      "saved": 1035954
+    },
+    {
+      "file": "assets/sprites/jisoo-pink-chorus-dance-grid.png",
+      "before": 1811819,
+      "after": 388805,
+      "saved": 1423014
+    },
+    {
+      "file": "assets/sprites/jisoo-pink-hero-dance-grid.png",
+      "before": 1760001,
+      "after": 374038,
+      "saved": 1385963
+    },
+    {
+      "file": "assets/sprites/jisoo-pink.png",
+      "before": 660904,
+      "after": 140979,
+      "saved": 519925
+    },
+    {
+      "file": "assets/sprites/lisa-encore-base-dance-grid.png",
+      "before": 1578313,
+      "after": 343935,
+      "saved": 1234378
+    },
+    {
+      "file": "assets/sprites/lisa-encore-chorus-dance-grid.png",
+      "before": 1924467,
+      "after": 416446,
+      "saved": 1508021
+    },
+    {
+      "file": "assets/sprites/lisa-encore-hero-dance-grid.png",
+      "before": 1801411,
+      "after": 388210,
+      "saved": 1413201
+    },
+    {
+      "file": "assets/sprites/lisa-encore.png",
+      "before": 704912,
+      "after": 151736,
+      "saved": 553176
+    },
+    {
+      "file": "assets/sprites/lisa-noir-base-dance-grid.png",
+      "before": 1388146,
+      "after": 279711,
+      "saved": 1108435
+    },
+    {
+      "file": "assets/sprites/lisa-noir-chorus-dance-grid.png",
+      "before": 1686060,
+      "after": 337314,
+      "saved": 1348746
+    },
+    {
+      "file": "assets/sprites/lisa-noir-hero-dance-grid.png",
+      "before": 1577858,
+      "after": 312986,
+      "saved": 1264872
+    },
+    {
+      "file": "assets/sprites/lisa-noir.png",
+      "before": 616101,
+      "after": 121694,
+      "saved": 494407
+    },
+    {
+      "file": "assets/sprites/lisa-pink-base-dance-grid.png",
+      "before": 1380505,
+      "after": 295188,
+      "saved": 1085317
+    },
+    {
+      "file": "assets/sprites/lisa-pink-chorus-dance-grid.png",
+      "before": 1693106,
+      "after": 355515,
+      "saved": 1337591
+    },
+    {
+      "file": "assets/sprites/lisa-pink-hero-dance-grid.png",
+      "before": 1575503,
+      "after": 332359,
+      "saved": 1243144
+    },
+    {
+      "file": "assets/sprites/lisa-pink.png",
+      "before": 619594,
+      "after": 129592,
+      "saved": 490002
+    },
+    {
+      "file": "assets/sprites/rose-encore-base-dance-grid.png",
+      "before": 1556488,
+      "after": 351375,
+      "saved": 1205113
+    },
+    {
+      "file": "assets/sprites/rose-encore-chorus-dance-grid.png",
+      "before": 2042692,
+      "after": 447705,
+      "saved": 1594987
+    },
+    {
+      "file": "assets/sprites/rose-encore-hero-dance-grid.png",
+      "before": 1911165,
+      "after": 419032,
+      "saved": 1492133
+    },
+    {
+      "file": "assets/sprites/rose-encore.png",
+      "before": 746982,
+      "after": 162290,
+      "saved": 584692
+    },
+    {
+      "file": "assets/sprites/rose-noir-base-dance-grid.png",
+      "before": 1448287,
+      "after": 313212,
+      "saved": 1135075
+    },
+    {
+      "file": "assets/sprites/rose-noir-chorus-dance-grid.png",
+      "before": 1903138,
+      "after": 401991,
+      "saved": 1501147
+    },
+    {
+      "file": "assets/sprites/rose-noir-hero-dance-grid.png",
+      "before": 1778783,
+      "after": 373092,
+      "saved": 1405691
+    },
+    {
+      "file": "assets/sprites/rose-noir.png",
+      "before": 696219,
+      "after": 145434,
+      "saved": 550785
+    },
+    {
+      "file": "assets/sprites/rose-pink-base-dance-grid.png",
+      "before": 1418219,
+      "after": 321266,
+      "saved": 1096953
+    },
+    {
+      "file": "assets/sprites/rose-pink-chorus-dance-grid.png",
+      "before": 1860081,
+      "after": 409584,
+      "saved": 1450497
+    },
+    {
+      "file": "assets/sprites/rose-pink-hero-dance-grid.png",
+      "before": 1814002,
+      "after": 397015,
+      "saved": 1416987
+    },
+    {
+      "file": "assets/sprites/rose-pink.png",
+      "before": 676953,
+      "after": 146941,
+      "saved": 530012
+    }
+  ],
+  "fx": [
+    {
+      "file": "assets/fx/fx_co2_strip.png",
+      "before": 1136617,
+      "after": 217247,
+      "saved": 919370
+    },
+    {
+      "file": "assets/fx/fx_confetti_strip.png",
+      "before": 175400,
+      "after": 39887,
+      "saved": 135513
+    },
+    {
+      "file": "assets/fx/fx_flashbulb_strip.png",
+      "before": 500481,
+      "after": 109338,
+      "saved": 391143
+    },
+    {
+      "file": "assets/fx/fx_laser_strip.png",
+      "before": 306780,
+      "after": 80063,
+      "saved": 226717
+    },
+    {
+      "file": "assets/fx/fx_pyro_strip.png",
+      "before": 698039,
+      "after": 136006,
+      "saved": 562033
+    },
+    {
+      "file": "assets/fx/fx_spotlight_strip.png",
+      "before": 505211,
+      "after": 106974,
+      "saved": 398237
+    }
+  ],
+  "stages": [
+    {
+      "from": "assets/stage/stage-encore-night.png",
+      "to": "assets/stage/stage-encore-night.webp",
+      "before": 1861248,
+      "after": 105106,
+      "saved": 1756142
+    },
+    {
+      "from": "assets/stage/stage-neon-arena.png",
+      "to": "assets/stage/stage-neon-arena.webp",
+      "before": 2071749,
+      "after": 130460,
+      "saved": 1941289
+    },
+    {
+      "from": "assets/stage/stage-pink-grid.png",
+      "to": "assets/stage/stage-pink-grid.webp",
+      "before": 2000188,
+      "after": 122630,
+      "saved": 1877558
+    }
+  ],
+  "totals": {
+    "before_assets": 75298055,
+    "after_assets": 14940172,
+    "saved": 60357883
+  }
+}

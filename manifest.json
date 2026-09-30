@@ -1,0 +1,45 @@
+{
+  "id": "./",
+  "name": "PINKVERSE Fan Arcade",
+  "short_name": "PINKVERSE",
+  "description": "An unofficial BLACKPINK-inspired fan arcade with original mini-games and an interactive pixel concert.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b090b",
+  "theme_color": "#ff3f98",
+  "categories": [
+    "games",
+    "entertainment",
+    "music"
+  ],
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "orientation": "any",
+  "prefer_related_applications": false
+}
